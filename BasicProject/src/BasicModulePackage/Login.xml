@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Basicmodule">
+	<parameter name="browser" value="chrome" />
+	<parameter name="email" value="snehautoo.email" />
+	<parameter name="password" value="Password123" />
+	<test name="Login  ">
+		<classes>
+			<class name="BasicModulePackage.Login" /> 
+		</classes>
+	</test>
+</suite>

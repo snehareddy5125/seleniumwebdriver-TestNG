@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Basicmodule" duration-ms="6" started-at="2019-05-01T11:23:51Z" finished-at="2019-05-01T11:23:51Z">
+    <groups>
+    </groups>
+    <test name="registration" duration-ms="6" started-at="2019-05-01T11:23:51Z" finished-at="2019-05-01T11:23:51Z">
+      <class name="BasicModulePackage.Registration">
+        <test-method status="PASS" signature="launchbrowser(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:BasicModulePackage.Registration@5a1c0542]" name="launchbrowser" is-config="true" duration-ms="30279" started-at="2019-05-01T11:23:21Z" finished-at="2019-05-01T11:23:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sneha@utoo.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sneha@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sneha123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:BasicModulePackage.Registration@5a1c0542]" name="afterSuite" is-config="true" duration-ms="3001" started-at="2019-05-01T11:23:51Z" finished-at="2019-05-01T11:23:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- BasicModulePackage.Registration -->
+    </test> <!-- registration -->
+  </suite> <!-- Basicmodule -->
+</testng-results>
