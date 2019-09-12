@@ -24,7 +24,7 @@ public class Registration {
 			driver = new ChromeDriver();
 		}
 
-		String baseurl = "http://kwikhire-dev.s3-website.ap-south-1.amazonaws.com/";
+		String baseurl = "http://url";
 		driver.manage().window().maximize();
 		driver.get(baseurl);
 		Thread.sleep(4000);
