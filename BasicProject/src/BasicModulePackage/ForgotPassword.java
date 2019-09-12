@@ -24,7 +24,7 @@ public class ForgotPassword {
 			driver = new ChromeDriver();
 		}
 
-		String baseurl = "http://kwikhire-dev.s3-website.ap-south-1.amazonaws.com/login";
+		String baseurl = "http://url/login";
 		driver.manage().window().maximize();
 		driver.get(baseurl);
 		Thread.sleep(4000);
