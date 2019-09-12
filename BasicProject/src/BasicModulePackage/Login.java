@@ -49,7 +49,7 @@ public class Login {
 		System.out.println(url);
 
 		Thread.sleep(3000);
-		if (url.contains("http://kwikhire-dev.s3-website.ap-south-1.amazonaws.com")) {
+		if (url.contains("http://url")) {
 			// System.out.println("url passed");
 
 			WebElement element1 = null;
@@ -77,9 +77,9 @@ public class Login {
 				String ErrorMessage1 = driver
 						.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[2]/form/div[1]/div[1]/p")).getText();
 				if (ErrorMessage1.contains("E-mail cannot be blank")) {
-					System.out.println("Handling Invalid Inputs – E-mail cannot be blank");
+					System.out.println("Handling Invalid Inputs â€“ E-mail cannot be blank");
 				} else if (ErrorMessage1.contains("E-mail format is wrong")) {
-					System.out.println("Handling Invalid Inputs – E-mail format is wrong");
+					System.out.println("Handling Invalid Inputs â€“ E-mail format is wrong");
 				}
 			}
 
@@ -87,18 +87,18 @@ public class Login {
 				String ErrorMessage2 = driver
 						.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[2]/form/div[1]/div[2]/p")).getText();
 				if (ErrorMessage2.contains("Password cannot be blank")) {
-					System.out.println("Handling Invalid Inputs – Password cannot be blank");
+					System.out.println("Handling Invalid Inputs â€“ Password cannot be blank");
 				}
 			}
 			else if (element3 != null) {
 				String ErrorMessage3 = driver
 						.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[2]/form/div[1]/p[1]/span")).getText();
 				if (ErrorMessage3.contains("Invalid Credentials")) {
-					System.out.println("Handling Invalid Inputs – Invalid Credentials");
+					System.out.println("Handling Invalid Inputs â€“ Invalid Credentials");
 				}
 
 				else {
-					System.out.println("Not Handling Invalid Inputs – test failed");
+					System.out.println("Not Handling Invalid Inputs â€“ test failed");
 				}
 			}
 
